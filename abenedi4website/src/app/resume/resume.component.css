@@ -1,0 +1,62 @@
+mat-card{
+    width: 50%;
+    margin: 40px auto; 
+}
+
+mat-card-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.none {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    text-align: center;
+}
+
+.pad {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ul.bulleted {
+    list-style-type:circle;
+    
+}
+
+div.listed{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+}
+
+button{
+    margin-bottom: 75px;
+    width:initial;
+}
+
+
+
