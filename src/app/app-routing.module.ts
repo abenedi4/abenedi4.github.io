@@ -7,13 +7,17 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 const routes: Routes = [
   { path: '',
-component: HomeComponent},
+component: HomeComponent,
+data: {animation: 'Home'}},
 { path: 'resume',
-component: ResumeComponent},
+component: ResumeComponent,
+data: {animation: 'Resume'}},
 { path: 'projects',
-component: ProjectsComponent},
+component: ProjectsComponent,
+data: {animation: 'Projects'}},
 { path: 'aboutme',
-component: AboutmeComponent},
+component: AboutmeComponent,
+data: {animation: 'About'}},
 { path: '**',
 component: PageNotFoundComponent}];
 

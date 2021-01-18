@@ -18,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
+import { MatTabsModule } from '@angular/material/tabs'
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import { FooterComponent } from './footer/footer.component';
     MatTooltipModule,
     MatCardModule,
     MatChipsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
