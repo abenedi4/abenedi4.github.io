@@ -17,6 +17,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { MatButtonModule } from '@angular/material/button';
     ResumeComponent,
     ProjectsComponent,
     PageNotFoundComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

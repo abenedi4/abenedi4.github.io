@@ -67,12 +67,13 @@ button:hover {
 }
 html body{
     background-color: rgb(238, 238, 238);
+    
 }
 * {
     line-height: 150%;
+    
 }
-html, body { height: 100%; }
+html, body { height: 100%; 
+}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

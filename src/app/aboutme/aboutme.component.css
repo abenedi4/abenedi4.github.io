@@ -5,8 +5,14 @@ h1{
     color:rgb(58, 58, 58);
 }
 
+
+
 p{
     text-align: justify;
     font-size: 14pt;
     font-weight:lighter;
+}
+
+div.overflow{
+    overflow-x: hidden;
 }
