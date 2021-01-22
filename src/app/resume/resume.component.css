@@ -58,5 +58,15 @@ button{
     width:initial;
 }
 
+.icon {
+    color: rgb(31, 31, 31);
+    opacity: 50%;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 5px;
+    cursor: default;
+}
 
-
+.icon:hover{
+    opacity: 100%;
+}

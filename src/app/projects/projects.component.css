@@ -8,3 +8,50 @@ mat-card-title {
     font-size: x-large;
     font-weight: lighter;
 }
+
+.pad {
+    padding: 25px 0;
+    margin: 0 25px;
+}
+
+.chip-orng {
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+    width: inherit;
+    height: inherit;
+    margin: 2px;
+    white-space: nowrap;
+}
+
+.chip-orng:hover{
+    background-color: rgb(204, 133, 2);
+    color: rgb(218, 218, 218);
+}
+
+.chip-blue {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+    width: inherit;
+    height: inherit;
+}
+
+.chip-blue:hover{
+    background-color: rgb(13, 105, 197);
+    color: rgb(218, 218, 218);
+}
+
+.icon {
+    margin-top: 30px; 
+    color: rgb(31, 31, 31);
+    opacity: 50%;
+    float:right;
+    cursor: default;
+}
+
+.icon:hover{
+    opacity: 100%;
+}

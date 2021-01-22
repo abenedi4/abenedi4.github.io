@@ -13,6 +13,11 @@
                     <ul class="none">
                         <li>
                             <div style="font-weight: bolder;">University of North Carolina at Charlotte - May, 2022
+                                <span class="material-icons icon" 
+                                matTooltip="The reason for my overlapping expected graduation dates between my M.S. and B.S. is due to the Early Entry Program. 
+                                This allows me to take graduate courses while completing my B.S. degree." matTooltipPosition="right">
+                                    info
+                                </span>
                             </div>
                             <em>Master of Science, Computer Science</em>
                             <br>
@@ -117,7 +122,35 @@
             </mat-card-content>
     </mat-card>
     <div id="wrapper">
-    <button mat-raised-button routerLink="/projects" routerLinkActive="active">Go To My Projects</button>
+        <a href="https://github.com/abenedi4/resume/blob/master/Resume.pdf" target="_blank">
+        <button mat-raised-button 
+        style="font-size: 15pt; 
+            font-weight: lighter; 
+            padding: 8px 10px;
+            margin-right: 20px;
+            ">
+            <span style="padding-left: 10px;">Download Resume</span>
+            
+            <span class="material-icons myblue" 
+            style="font-size: xx-large;
+            padding-left: 8px;">
+                save_alt
+                </span></button></a>
+        <button mat-raised-button 
+        style="font-size: 15pt; 
+        font-weight: lighter; 
+        padding: 8px 10px;
+        "
+        routerLink="/projects"
+        routerLinkActive="active">
+            
+            <span style="padding-left: 10px;">Projects</span> 
+            <span class="material-icons myblue" 
+            style="font-size: xx-large;
+            padding-left: 8px;">
+                arrow_forward
+                </span>
+        </button>
     </div>
 </div>
 
